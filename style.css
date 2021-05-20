@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.addtocart img {
+  width: 70px;
+}
+
+.logo img {
+  width: 180px;
+  border: 3px solid #c69a71;
+  border-radius: 50%;
+}
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  background-image: url(./images/paperbag-background.jpg);
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* --------------------HEADER AND NAV */
+
+header {
+  /* vertical-align: middle; */
+  border-bottom: 2px dotted #664d32;
+  display: flex;
+  width: 80%;
+  /* margin: 0 auto; */
+}
+header a {
+  font-size: 20px;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1980px; /* requierd width */
+  /* background: red; */
+}
+nav {
+  /* border: 5px solid orange; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.menu {
+  /* border: 5px solid orangered; */
+  min-width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu a:hover {
+  color: #c69a71;
+}
+.sidenav {
+  /* border: 5px solid orangered; */
+  min-width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.sidenav a:hover {
+  color: #c69a71;
+}
+/* .addtocart img {
+  border: 5px solid orangered;
+} */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.welcome-content h1 span {
+  color: white;
+}
+.welcome-content h3 span {
+  color: #664d32;
+}
+.welcome-content {
+  /* border: 5px solid orangered; */
+  width: 80%;
+  height: 600px;
+  text-align: center;
+  padding-top: 100px;
+}
+.welcome-content h1 {
+  /* border: 5px solid orangered; */
+  font-size: 4em;
+  padding-bottom: 50px;
+  color: #c69a71;
+}
+.welcome-content h3 {
+  /* border: 5px solid orangered; */
+  font-size: 1.7em;
+  padding-top: 30px;
+  padding-bottom: 10%;
+  color: white;
+}
+.welcome-content a {
+  /* border: 5px solid orangered; */
+  background-color: #e7e7e7;
+  color: black;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.welcome-content a:hover {
+  background-color: #9b7044;
+  color: white;
+}
+
+/* ------------------------MID-CONTENT OUR GOODS */
+
+.mid-content {
+  /* border: 5px solid orangered; */
+  width: 80%;
+  text-align: center;
+  height: 100%;
+}
+.mid-content h1 {
+  margin-top: 20px;
+}
+.product {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  justify-items: center;
+  align-items: center;
+  grid-gap: 20px 20px;
+}
+.product a {
+  text-decoration: none;
+  color: black;
+}
+.product img {
+  border-bottom: 5px solid rgb(255, 255, 255);
+  width: 90%;
+}
+.product img:hover {
+  /* border: 5px solid hotpink; */
+  border-bottom: 5px solid #c69a71;
+}
+.pizza,
+.fries,
+.chicken-wings,
+.coffee {
+  align-self: end;
+}
+
+/* .sticky {
+  position: fixed;
+  border: 5px solid green;
+  width: 81%;
+
+  background: #9b7044c4;
+  border-radius: 0px 0px 20px 20px;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1980px;
+} */
+.footer-content {
+  background-color: #664d32;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0 20px 0;
+  text-align: center;
+}
+.footer-content h2,
+.footer-content p {
+  color: rgb(206, 201, 201);
+}
+
+.credits {
+  color: rgb(206, 201, 201);
+  padding-top: 25px;
+}
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact {
+  width: 10%;
+}
+.contact-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ----------------RESPONSIVE LAYOUT DESIGN */
+/* .toggle-button {
+  position: absolute;
+  top: 5rem;
+  right: 15%;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px;
+  height: 40px;
+}
+
+.toggle-button .bar {
+  height: 5px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+} */
+
+/* --------------------------------------STORE HTML STYLE */
+.background-food {
+  background-image: url(./images/baedal-background.jpg);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.welcome-content .link {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+.welcome-content a.current-tab {
+  border-right: 2px solid white;
+  border-radius: 0;
+}
+.welcome-content a.link:hover {
+  background-color: transparent;
+  color: #4e3115;
+}
+.welcome-content .active {
+  color: #4e3115;
+}
+.categories a {
+  color: black;
+}
+.product-store {
+  /* border: 5px solid green; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: end;
+  grid-gap: 20px 20px;
+  margin-bottom: 20px;
+}
+.product-store img {
+  width: 90%;
+}
+.product-store .items {
+  text-align: center;
+}
+.product-store .items a {
+  color: black;
+}
+.categories {
+  border: 2px dashed #c69a71;
+  width: 70%;
+  margin: 20px 0 0 50px;
+  border-radius: 20px;
+  padding: 20px 50px 10px 10px;
+}
+.categories h2 {
+  border-bottom: 2px dashed #c69a71;
+  margin-bottom: 20px;
+  text-align: center;
+}
+ul.food {
+  list-style-position: inside;
+  list-style-image: url("./images/right-arrow.png");
+  padding: 5px;
+}
+ul.products {
+  list-style-position: inside;
+  list-style-image: url("./images/next.png");
+}
+ul li a:hover {
+  color: #c69a71;
+}
+
+.categories .store {
+  padding-left: 10px;
+}
+.items p {
+  margin-bottom: 50px;
+}
+.items .add-to-cart {
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(255, 152, 17);
+}
+.items .add-to-cart:hover {
+  border-radius: 10px;
+  background-color: #c69a71;
+  color: white;
+}
+.items .mcdo img {
+  width: 60%;
+}
+@media (max-width: 923px) {
+  .product-store {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* ----------------------------------CONTACT US SECTION */
+
+.contact-us {
+  /* border: 5px solid green; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.placeholder-section {
+  /* border: 5px solid green; */
+  display: flex;
+  align-items: center;
+}
+.address-section,
+.contact-section {
+  text-align: center;
+  border-right: 2px dashed #c69a71;
+  padding: 50px 100px 50px 20px;
+}
+.follow-section {
+  text-align: center;
+  padding: 50px 100px 50px 20px;
+}
+.contact-section {
+  padding-right: 200px;
+}
+.contact-number-section,
+.email-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 105%;
+}
+.map {
+  display: flex;
+  align-items: center;
+  width: 100%;
+
+  margin: 50px 0 20px 0;
+}
+.about-us {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.about-us h1 {
+  margin: 20px;
+}
+.about-us p {
+  text-align: left;
+  align-self: center;
+  width: 60%;
+  font-size: 1.5rem;
+  padding: 30px 0 30px 20px;
+  border: 3px dashed #c69a71;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.second-img {
+  background-image: url(./images/girl-delivery.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media (max-width: 923px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu a,
+  .sidenav a {
+    padding: 5px;
+  }
+  body {
+    margin: 0;
+  }
+  .product {
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .maps {
+    border: 5px solid green;
+    margin-left: 200px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 5px solid green; */
+  }
+  .footer-content h2 {
+    padding: 1rem;
+  }
+  .contact {
+    /* border: 5px solid green; */
+    width: 20%;
+  }
+  .address-section {
+    margin-bottom: 20px;
+  }
+  .address-section,
+  .contact-section,
+  .follow-section {
+    border-right: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 678px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navbar-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contact {
+    /* border: 5px solid green; */
+    width: 48%;
+  }
+}
