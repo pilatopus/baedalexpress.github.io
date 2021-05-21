@@ -199,25 +199,6 @@ a {
   justify-content: space-between;
 }
 
-/* ----------------RESPONSIVE LAYOUT DESIGN */
-/* .toggle-button {
-  position: absolute;
-  top: 5rem;
-  right: 15%;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 50px;
-  height: 40px;
-}
-
-.toggle-button .bar {
-  height: 5px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-} */
-
 /* --------------------------------------STORE HTML STYLE */
 .background-food {
   background-image: url(./images/baedal-background.jpg);
@@ -350,6 +331,9 @@ ul li a:hover {
   justify-content: space-between;
   width: 105%;
 }
+.email-section a {
+  color: black;
+}
 .map {
   display: flex;
   align-items: center;
@@ -382,6 +366,27 @@ ul li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+}
+.show-more {
+  text-align: center;
+  padding: 20px;
+}
+.button-store {
+  /* border: 5px solid green; */
+  display: flex;
+  justify-content: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: 20px;
+}
+th,
+td {
+  padding: 5px;
 }
 
 @media (max-width: 923px) {
@@ -448,3 +453,5 @@ ul li a:hover {
     width: 48%;
   }
 }
+
+/* ---------------------------XML STYLE  */

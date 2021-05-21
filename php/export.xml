@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <user>
+    <first_name>Andrey</first_name>
+    <last_name>Familara</last_name>
+    <middle_name>Malunes</middle_name>
+    <address>Cuenca, Batangas</address>
+    <email>familara.andrey@gmail.com</email>
+    <username>Andrey</username>
+    <number>9566318792</number>
+    <password>Qwerty0612</password>
+    <cpassword>Qwerty0612</cpassword>
+    <subject>Male</subject>
+    <agee>18</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Andrey Familara</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Camille</first_name>
+    <last_name>Garcia</last_name>
+    <middle_name>Obille</middle_name>
+    <address>Tambo, Lipa City</address>
+    <email>camille.garcia@g.batstate-u.edu.ph</email>
+    <username>Cams</username>
+    <number>9123764308</number>
+    <password>Smac_09</password>
+    <cpassword>Sma_09</cpassword>
+    <subject>Female</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Camille Garcia</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Sandra</first_name>
+    <last_name>Boton</last_name>
+    <middle_name>Armenta</middle_name>
+    <address>Brgy. Santiago Malvar, Batangas</address>
+    <email>sandra.boton@g.batstate-u.edu.ph</email>
+    <username>Sandra </username>
+    <number>9126783406</number>
+    <password>Boton14</password>
+    <cpassword>Boton14</cpassword>
+    <subject>Female</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Sandra Armenta CaÃ±elas Boton</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Jomari</first_name>
+    <last_name>Valencia</last_name>
+    <middle_name>Landicho</middle_name>
+    <address>Laruel, Batangas</address>
+    <email>jomari.valencia@g.batstate-u.edu.ph</email>
+    <username>Joms</username>
+    <number>9652386742</number>
+    <password>Jomari_15</password>
+    <cpassword>Jomari_15</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>No</questions>
+    <status>Single</status>
+    <facebook>Jomari Landicho Valencia</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Christine Joy</first_name>
+    <last_name>Paala</last_name>
+    <middle_name>Dizon</middle_name>
+    <address>Quiling, Talisay, Batangas</address>
+    <email>christinejoy.paala@g.batstate-u.edu.ph</email>
+    <username>CJ</username>
+    <number>906435302</number>
+    <password>Maxinne28</password>
+    <cpassword>Maxinne28</cpassword>
+    <subject>Female</subject>
+    <agee>21</agee>
+    <questions>No</questions>
+    <status>Single</status>
+    <facebook>Christine Joy Dizon Paala</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Edsel</first_name>
+    <last_name>Cuaro</last_name>
+    <middle_name>Quiatchon</middle_name>
+    <address>Darasa, Tanuan City Batangas</address>
+    <email>edsel.cuaro12@gmail.com</email>
+    <username>Edsel</username>
+    <number>09566318792</number>
+    <password>edsel12</password>
+    <cpassword>edsel12</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Edsel Quiatchon Cuaro</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Ella</first_name>
+    <last_name>Desepeda</last_name>
+    <middle_name>Pestano</middle_name>
+    <address>Quiling Tanuan Batangas</address>
+    <email>elladesepeda@gmail.com</email>
+    <username>Ella</username>
+    <number>09679515599</number>
+    <password>ella</password>
+    <cpassword>ella</cpassword>
+    <subject>Female</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Ella Mae Pestano Desepeda</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Lloyd Zynon</first_name>
+    <last_name>Perez</last_name>
+    <middle_name>Lunar</middle_name>
+    <address>Emmanuel, Cuenca Batangas</address>
+    <email>lloyd.13@gmail.com</email>
+    <username>Lloyd</username>
+    <number>09442652131</number>
+    <password>lloyd</password>
+    <cpassword>lloyd</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Lloyd Zynon Perez</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Cedric</first_name>
+    <last_name>Lunar</last_name>
+    <middle_name>Dawis</middle_name>
+    <address>Pinagkaisahan, Cuenca Batangas</address>
+    <email>cedric.lunar@gmail.com</email>
+    <username>Didek</username>
+    <number>09664423312</number>
+    <password>cedirclunar</password>
+    <cpassword>cedriclunar</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Cedric Lunar</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>John Andre</first_name>
+    <last_name>Pastrana</last_name>
+    <middle_name>N/A</middle_name>
+    <address>Tanuan City Batangas</address>
+    <email>johnandreypastrana@gmail.com</email>
+    <username>Andre</username>
+    <number>09473371253</number>
+    <password>andrepastrana</password>
+    <cpassword>andrepastrana</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>John Andre Pastrana</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Ella</first_name>
+    <last_name>Burgos</last_name>
+    <middle_name>De Leon</middle_name>
+    <address>Boot Tanuan City, Batangas</address>
+    <email>ella.burgos@gmail.com</email>
+    <username>Ella</username>
+    <number>09381238482</number>
+    <password>burgos12</password>
+    <cpassword>burgos12</cpassword>
+    <subject>Female</subject>
+    <agee>22</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Ella Burgos De Leon</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Jairus</first_name>
+    <last_name>Maligalig</last_name>
+    <middle_name>Refran</middle_name>
+    <address>San Isidro Norte, Sto.Tomas Batangas</address>
+    <email>jairusrefran.maligalig@gmail.com</email>
+    <username>Jai</username>
+    <number>09757123412</number>
+    <password>jaijai</password>
+    <cpassword>jaijai</cpassword>
+    <subject>Male</subject>
+    <agee>22</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Jairus Refran Maligalig</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Markjhonpaul</first_name>
+    <last_name>Dalisay</last_name>
+    <middle_name>Garzon</middle_name>
+    <address>San Gabriel, Laurel Batangas</address>
+    <email>mjp@gmail.com</email>
+    <username>Dalisay</username>
+    <number>09881324412</number>
+    <password>dalisay</password>
+    <cpassword>dalisay</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Markjhonpaul Garzon Dalisay</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Tracy Mae</first_name>
+    <last_name>Gonzales</last_name>
+    <middle_name>Hornilla</middle_name>
+    <address>San Sebastia, Lipa City Batangas</address>
+    <email>tracyyyyymae@gmail.com</email>
+    <username>Tracy</username>
+    <number>09883124412</number>
+    <password>tracy</password>
+    <cpassword>tracy</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>No</questions>
+    <status>Single</status>
+    <facebook>Tracy Mae Hornilla Gonzales</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Ramil</first_name>
+    <last_name>Rioflorido</last_name>
+    <middle_name>Marasigan</middle_name>
+    <address>Gulod, Laurel Batangas</address>
+    <email>rioflorido_ramil@gmail.com</email>
+    <username>Ramil</username>
+    <number>09383331246</number>
+    <password>ramil13</password>
+    <cpassword>ramil13</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Ramil Rioflorido</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Reynoen</first_name>
+    <last_name>Ruedas</last_name>
+    <middle_name>Maligaya</middle_name>
+    <address>San Pablo, Sto.Tomas Batangas</address>
+    <email>reynoen_ruedas65@gmail.com</email>
+    <username>Tisoy</username>
+    <number>09666523822</number>
+    <password>tisoypogi</password>
+    <cpassword>tisoypogi</cpassword>
+    <subject>Male</subject>
+    <agee>22</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Reynoen Ruedas</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Nicole</first_name>
+    <last_name>Cernito</last_name>
+    <middle_name>Santillan</middle_name>
+    <address>Quiling, Talisay Batangas</address>
+    <email>nicole.cernito12@gmail.com</email>
+    <username>Ninong</username>
+    <number>09577372166</number>
+    <password>qwerty12</password>
+    <cpassword>qwerty12</cpassword>
+    <subject>Male</subject>
+    <agee>22</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Nicole Santillan Cernito</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Miko</first_name>
+    <last_name>Cabes</last_name>
+    <middle_name>Lunar</middle_name>
+    <address>San Bartolome, Sto.Tomas Batangas</address>
+    <email>miko.miko88@gmail.com</email>
+    <username>Miko</username>
+    <number>09122298312</number>
+    <password>mikojames</password>
+    <cpassword>mikojames</cpassword>
+    <subject>Male</subject>
+    <agee>22</agee>
+    <questions>No</questions>
+    <status>Single</status>
+    <facebook>Miko Cabes</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Miles Gio</first_name>
+    <last_name>Malipol</last_name>
+    <middle_name>Malvataan</middle_name>
+    <address>San Felix, Sto.Tomas Batangas</address>
+    <email>malipol.miles@gmail.com</email>
+    <username>Gio</username>
+    <number>09575722374</number>
+    <password>miles88</password>
+    <cpassword>miles88</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>In relationship</status>
+    <facebook>Miles Gio Malipol</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Maron Dave</first_name>
+    <last_name>Medina</last_name>
+    <middle_name>Gonzales</middle_name>
+    <address>Plaridel, Lipa City Batangas</address>
+    <email>maron.davemedina@gmail.com</email>
+    <username>Maron</username>
+    <number>09998128421</number>
+    <password>cxzasd54</password>
+    <cpassword>cxzasd54</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>In relationship</status>
+    <facebook>Maron Dave Medina</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>John Herald</first_name>
+    <last_name>Ross</last_name>
+    <middle_name>Garcia</middle_name>
+    <address>Banga, Talisay Batangas</address>
+    <email>johnherald2@gmail.com</email>
+    <username>Ross</username>
+    <number>09756523133</number>
+    <password>johnjohn</password>
+    <cpassword>johnjhon</cpassword>
+    <subject>Male</subject>
+    <agee>22</agee>
+    <questions>No</questions>
+    <status>In relationship</status>
+    <facebook>John Ross</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Erickson</first_name>
+    <last_name>Cabillo</last_name>
+    <middle_name>Prado</middle_name>
+    <address>Banadero, Tanuan City Batangas</address>
+    <email>erickson_98@gmail.com</email>
+    <username>Son</username>
+    <number>09574723144</number>
+    <password>ericksonn</password>
+    <cpassword>ericksonn</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>No</questions>
+    <status>Single</status>
+    <facebook>Erickson Cabillo</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>John Mark</first_name>
+    <last_name>Capinding</last_name>
+    <middle_name>Medina</middle_name>
+    <address>Macalamlam, Rosario Batangas</address>
+    <email>jm.capinding@gmail.com</email>
+    <username>Jm</username>
+    <number>09775752144</number>
+    <password>jmpogi13</password>
+    <cpassword>jmpogi1</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>In relationship</status>
+    <facebook>Jm Capinding</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>John Lloyd</first_name>
+    <last_name>Prado</last_name>
+    <middle_name>Cabillo</middle_name>
+    <address>Janopol Occidental, Tanuan Batangas</address>
+    <email>johnlloydprado43@gmail.com</email>
+    <username>Prado</username>
+    <number>09776893021</number>
+    <password>jprado12</password>
+    <cpassword>jprado12</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Johnlloyd Prado</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Jomar</first_name>
+    <last_name>Borromeo</last_name>
+    <middle_name>Dimapilis</middle_name>
+    <address>Ambulong, Tanuan City Batangas</address>
+    <email>jomar.boro@gmail.com</email>
+    <username>Boro</username>
+    <number>09641514266</number>
+    <password>jomarjomar</password>
+    <cpassword>jomarjomar</cpassword>
+    <subject>Male</subject>
+    <agee>23</agee>
+    <questions>No</questions>
+    <status>In relationship</status>
+    <facebook>Jomar Borromeo</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Kim</first_name>
+    <last_name>Catindig</last_name>
+    <middle_name>Medina</middle_name>
+    <address>Inosloban, Lipa City Batangas</address>
+    <email>kim.983712@gmail.com</email>
+    <username>Kim</username>
+    <number>09757322214</number>
+    <password>kim98</password>
+    <cpassword>kim98</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Kim Catindig</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Jim Nathaniel</first_name>
+    <last_name>Mangubat</last_name>
+    <middle_name>Maligalig</middle_name>
+    <address>Maugat, Tanuan City Batangas</address>
+    <email>jim.nathaniel_212@gmail.com</email>
+    <username>Jim</username>
+    <number>09388328522</number>
+    <password>jimmm12</password>
+    <cpassword>jimmm12</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Jim Nathaniel Mangubat</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Czarina Mae</first_name>
+    <last_name>Malvataan</last_name>
+    <middle_name>Valencia</middle_name>
+    <address>Quiling, Talisay Batangas</address>
+    <email>czarina.mae98@gmail.com</email>
+    <username>Czarina</username>
+    <number>09757123442</number>
+    <password>czarina</password>
+    <cpassword>czarina</cpassword>
+    <subject>Female</subject>
+    <agee>23</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Czarina Mae Malvataan</facebook>
+    <questions2>Yes</questions2>
+  </user>
+  <user>
+    <first_name>Christian</first_name>
+    <last_name>Contemplacion</last_name>
+    <middle_name>Romero</middle_name>
+    <address>San Roques, Sto.Tomas Batangas</address>
+    <email>christian.contemplacion69@gmail.com</email>
+    <username>Dama</username>
+    <number>09381238822</number>
+    <password>damadama</password>
+    <cpassword>damadama</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>No</questions>
+    <status>Single</status>
+    <facebook>Christian Romero Contemplacion</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Arvin</first_name>
+    <last_name>Prado</last_name>
+    <middle_name>Cabillo</middle_name>
+    <address>San Pedro, Malvar Batangas</address>
+    <email>arvin.prado99@gmail.com</email>
+    <username>Arvin</username>
+    <number>09773255124</number>
+    <password>arvin12</password>
+    <cpassword>arvin12</cpassword>
+    <subject>Male</subject>
+    <agee>22</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>Arvin Prado</facebook>
+    <questions2>No</questions2>
+  </user>
+  <user>
+    <first_name>Juan</first_name>
+    <last_name>Dela Crruz</last_name>
+    <middle_name>Aquino</middle_name>
+    <address>Sto.Tomas Batangas</address>
+    <email>juan@gmail.com</email>
+    <username>Juan</username>
+    <number>09123456789</number>
+    <password>4321</password>
+    <cpassword>4321</cpassword>
+    <subject>Male</subject>
+    <agee>21</agee>
+    <questions>Yes</questions>
+    <status>Single</status>
+    <facebook>juandelacruz</facebook>
+    <questions2>No</questions2>
+  </user>
+</register>

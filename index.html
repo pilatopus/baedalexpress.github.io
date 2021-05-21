@@ -34,7 +34,7 @@
             
         </div>
            <div  class="sidenav  navbar-links">
-                  <a href="#">Login</a>
+                  <a href="./php/index.php">Login</a>
                   <!-- <a href="#">Sign Up</a> -->
             </div> 
            
@@ -90,9 +90,12 @@
         </div>
     </div>
         </div>
-
-        
-
+       <div class="show-more">
+        <button type="button" onclick="loadXMLDoc()">Show more store</button>
+    </div>
+        <div class="wrapper button-store">
+        <table id="demo"></table>
+    </div>
     <footer>  
         <div class="wrapper footer-content">
 
@@ -111,13 +114,13 @@
                  <img src="./images/call.png" alt=""> <p> +63-912-345-6789</p>
             </div>
             <div class="email">
-                <img src="./images/email.png" alt=""> <p>   baedal@gmail.com</p>
+            <img src="./images/email.png" alt=""> <p>   baedal@gmail.com</p> 
         </div>
         </div>  
 
            <div class="follow">
                <h2>Follow Us</h2>
-               <img src="./images/facebook-circular-logo.png" alt="">
+              <a href="https://www.facebook.com/baedalxpress" target="_blank"> <img src="./images/facebook-circular-logo.png" alt=""> </a>
 
                
             </div> 
@@ -126,5 +129,31 @@
 
        
    </footer>
+   <script>
+    function loadXMLDoc() {
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          myFunction(this);
+        }
+      };
+      xmlhttp.open("GET", "sample.xml", true);
+      xmlhttp.send();
+    }
+    function myFunction(xml) {
+      var i;
+      var xmlDoc = xml.responseXML;
+      var table="<tr><th>Company</th><th>Product</th></tr>";
+      var x = xmlDoc.getElementsByTagName("STORE");
+      for (i = 0; i <x.length; i++) { 
+        table += "<tr><td>" +
+        x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue +
+        "</td><td>" +
+        x[i].getElementsByTagName("PRODUCT")[0].childNodes[0].nodeValue +
+        "</td></tr>";
+      }
+      document.getElementById("demo").innerHTML = table;
+    }
+    </script>
 </body>
 </html>
